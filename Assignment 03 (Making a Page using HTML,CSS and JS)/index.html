@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="./src/app.js"></script>
+    <title>Foodway</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="p">
+        Welcome
+    </header>
+    <!-- navbar -->
+    <nav class="main-navbar">
+        <ul>
+            <li>
+                <h1 class="h logo">
+                    Foodway
+                </h1>
+            </li>
+            <li class="nav-btn">
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li class="nav-btn">
+                <a href="#">
+                    Services
+                </a>
+            </li>
+            <li class="nav-btn">
+                <a href="#">
+                    Order Food
+                </a>
+            </li>
+            <li class="nav-btn">
+                <a href="#">
+                    About Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+            <img src="./src/images/bg.jpg" alt="background">
+            <div class="img-overlay">
+                <div class="welcome-msg">
+                    <h3 class="h">Welcome to Foodway</h3>
+                    <div>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis amet nisi dicta
+                            laudantium magni consequatur</p>
+                        <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Our Services Section -->
+        <section class="services-section">
+            <h1 class="h">Our Services</h1>
+            <div>
+                <div>
+                    <img src="./src/images/foodDeliveryBike.png" alt="Food Delivery">
+                    <h3 class="h">Order Food</h3>
+                    <P class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid vel maxime culpa
+                        praesentium dicta reiciendis, iste cm? Nostrum perferendis dolorum voluptatibus officiis</P>
+                </div>
+                <div>
+                    <img src="./src/images/foodDeliveryBike.png" alt="Food Delivery">
+                    <h3 class="h">Food Catering</h3>
+                    <P class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid vel maxime culpa
+                        praesentium dicta reiciendis, iste cm? Nostrum perferendis dolorum voluptatibus officiis</P>
+                </div>
+                <div>
+                    <img src="./src/images/foodDeliveryBike.png" alt="Food Delivery">
+                    <h3 class="h">Order Food</h3>
+                    <P class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aliquid vel maxime culpa
+                        praesentium dicta reiciendis, iste cm? Nostrum perferendis dolorum voluptatibus officiis</P>
+                </div>
+            </div>
+        </section>
+        <section class="banner-section">
+            <div class="left-half">
+                <h1 class="h">Delicious Food Gallery</h1>
+                <p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolore debitis maxime.
+                    Ullam aliquid dolore dignissimos. Soluta, eum. Ratione expedita porro ipsum eligendi unde labore
+                    nisi provident repellendus ea totam.</p>
+                <div>
+                    Image from <span><a href="https://unsplash.com" target="_blank">Unsplash</a></span>
+                </div>
+            </div>
+            <div class="right-half">
+                <div class="banner">
+                    <div class="left-btn btn">&larr;</div>
+                    <div id="img-container" class="img img1"></div>
+                    <div class="right-btn btn">&rarr;</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Manu Section -->
+        <section class="menu-section">
+            <h1 class="h">
+                Our Menu
+            </h1>
+            <table class="menu-table">
+                <tr>
+                    <th class="sr">#</th>
+                    <th class="dish">Dish</th>
+                    <th class="serving">Serving</th>
+                    <th class="price">Price</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ESPRESSO</td>
+                    <td>1</td>
+                    <td>$1.30</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>MACCHIATO</td>
+                    <td>1</td>
+                    <td>$1.80</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>CORTADO</td>
+                    <td>1</td>
+                    <td>$1.35</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>CAFE AU LAIT</td>
+                    <td>1</td>
+                    <td>$1.60</td>
+                </tr>
+            </table>
+            <div style="width: 80%;" id="btns-container">
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <h1 class="h">Want Opening Discounts?</h1>
+            <div>
+                <p class="p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias, reiciendis necessitatibus,
+                    labore
+                    dolorum exercitationem dignissimos labore dolorum exercitationem dignissimos
+                </p>
+                <div class="email">
+                    <input type="email" name="email" placeholder="Enter your email address">
+                    <button>SIGN UP</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Form -->
+        <section class="contact-section">
+            <h1 class="h">Contact Us</h1>
+            <form action="">
+                <div class="row-1">
+                    <div>
+                        <input class="" id="name" name="name" type="text" placeholder="Name">
+                        <div class="error name-error">Required</div>
+                    </div>
+                    <div>
+                        <input id="email" name="email" type="email" placeholder="Email">
+                        <div class="error email-error">Required</div>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div>
+                        <textarea name="message" id="comment" placeholder="Comment" rows="5"></textarea>
+                        <div class="error comment-error">Minimum 5 words</div>    
+                    </div>
+                </div>
+                <div class="row-3">
+                    <input type="checkbox" id="newsletter" checked>
+                    <label for="newsletter"> Send me Weekly Newsletter </label>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            &#169 Foodway Lahore, Ins. All rights reserved.
+        </footer>
+</body>
+
+</html>
